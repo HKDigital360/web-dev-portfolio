@@ -9,6 +9,13 @@
     "wdth" 100;
 }
 
+/* Header */
+.header{
+background-image: url(../images/developer.png), url(../images/header_bg.png);
+background-repeat: no-repeat;
+background-position: top left, bottom right;
+}
+
 /* shared style */
 .text-primary{
     color: #FD6E0A;
@@ -53,3 +60,21 @@ nav ul li{
     color: #474747;
 }
  nav li a{text-decoration: none;}
+
+ /* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+ .banner-greetings{
+    font-size:45px;
+    font-weight: 600px;
+ }
+ .banner-title{
+    font-size:85px;
+    font-weight: bold;
+ }
+ .banner-propic{
+    width: 580px;
+ }
