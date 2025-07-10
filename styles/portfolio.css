@@ -105,3 +105,10 @@ main{
     padding: 130px 150px;
     text-align: center;
  }
+ .item-description{
+    font-weight: bold;
+ }
+ .about-items{
+    display: flex;
+    justify-content: space-around;
+ }
