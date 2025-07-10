@@ -13,13 +13,33 @@
 .text-primary{
     color: #FD6E0A;
 }
+.btn-primary{
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 18px 35px 19px 36px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    border: none;
+}
+
 
 .dark-2{
 color: #474747;
 }
 /* Nav styles */
+
+nav ul{
+    display: flex;
+    /* align-items: center; */
+    align-items: center;
+}
+
 nav{
     display: flex;
+    align-items: center;
+justify-content: space-between;
+margin-right: 230px;
+margin-left: 226px;
 }
 
 .nav-title{
@@ -27,6 +47,7 @@ nav{
     font-size: 45px;
 }
 nav ul li{
+    margin: 51px;
     list-style: none;
     font-size: 20px;
     color: #474747;
