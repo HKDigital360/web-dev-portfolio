@@ -140,3 +140,18 @@ gap: 24px;
     border-radius: 5px;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.25);
 }
+/* Responsive Media query */
+.hide{
+    display: none;
+}
+@media screen and (max-width: 576px) {
+    .skills-container,
+     .about-items{ flex-direction: column;
+}
+    
+.about{
+    padding: 30px;
+}
+    }
+    
+
