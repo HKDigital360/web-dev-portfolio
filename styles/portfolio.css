@@ -146,12 +146,31 @@ gap: 24px;
 }
 @media screen and (max-width: 576px) {
     .skills-container,
+    .banner,
+    nav,
+    nav > ul,
      .about-items{ flex-direction: column;
 }
-    
+
+
+    nav>ul{
+        gap: 1px;
+
+    }
 .about{
     padding: 30px;
 }
+.banner{
+    margin: 20px;
+}
+.banner-propic{
+    width: 100%;
+}
+
+.header{
+    background-image: none;
+}
+
     }
     
 
